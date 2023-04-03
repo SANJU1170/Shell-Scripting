@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+if [ $# -gt 1 ]
+then
+echo "enter one argument"
+exit 1
+fi 
+
+
+if [ $1 -eq 4 ]
+then
+echo "$1 is four"
+else
+echo "$1 is not four"
+fi
